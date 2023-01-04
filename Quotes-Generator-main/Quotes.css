@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f05353;
+}
+
+.container {
+  width: 900px;
+  background: rgb(230, 211, 211);
+  border-radius: 30px;
+  padding: 50px 50px 40px;
+}
+.container header {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.container .content {
+  margin: 50px 0;
+}
+
+.content .quoteArea {
+  display: flex;
+  justify-content: center;
+}
+.quoteArea i {
+  font-size: 30px;
+}
+
+.quoteArea i:first-child {
+  margin: 3px 10px 0 0;
+}
+.quoteArea i:last-child {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 3px 10px;
+}
+.quoteArea .quote {
+  font-size: 24px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 600; */
+}
+
+.content .author {
+  display: flexbox;
+  font-size: 18px;
+  font-style: italic;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.author span:first-child {
+  margin: -7px 5px 0 0;
+  font-family:cursive;
+}
+
+.container .buttons {
+  border-top: 1px solid rgb(3, 3, 3);
+}
+
+.buttons .features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.features ul {
+  display: flex;
+}
+.features ul li {
+  list-style: none;
+  margin: 0 5px;
+  cursor: pointer;
+  width: 47px;
+  height: 47px;
+  border: 2px solid #eb53f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f053e3;
+  transition: all 0.3s ease;
+}
+.features ul li:hover {
+  color: #fff;
+  background-color: #f07853;
+}
+.features button {
+  border: none;
+  outline: none;
+  padding: 13px 22px;
+  color: rgb(12, 11, 11);
+  font-style: 16px;
+  background-color: #a453f0;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
